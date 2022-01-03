@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Entities
 {
@@ -9,7 +10,7 @@ namespace Entities
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=GIZE\SQLEXPRESS;Initial Catalog=StoreDB;");
+            optionsBuilder.UseSqlServer(@"Data Source=GIZE\SQLEXPRESS;Initial Catalog=ContactDB;");
         }
     }
 }
