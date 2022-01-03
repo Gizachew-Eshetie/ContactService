@@ -1,5 +1,5 @@
 # ContactService
-This project is designed for developers who want start developing .Net 5 Web API with well designed architecture. 
+This project is designed for developers who want to start developing .Net 5 Web API with well designed architecture. 
 Main Component projects:
 #Model Project contains model classes.
 #Entities Project contains implementation of Entity Framework Core using Code first approach.
